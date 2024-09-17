@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <!-- wow css -->
+    <link rel="stylesheet" href="css/wow.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--bootstrap css  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- mdbootstrap css -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!--style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icon css -->
+    <link rel="icon" href="img/icon.png">
+    <title>Fast Food</title>
+</head>
+<body>
+    <!-- start nav-bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Fast Food</a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="book.html">Book Table</a>
+                </li>
+            </ul>
+            <div class="icons mr-5">
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- start menu-section -->
+    <section class="menu-section pt-5 mt-5" data-wow-duration="1s">
+        <h2 class="text-center mt-5 animate__animated animate__zoomInDown">Menu</h2>
+        <div class="container">
+            <ul class="nav nav-pills mb-3 d-flex" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-all-tab" data-toggle="pill" data-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-burger-tab" data-toggle="pill" data-target="#pills-burger" type="button" role="tab" aria-controls="pills-burger" aria-selected="false">Burger</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-pizza-tab" data-toggle="pill" data-target="#pills-pizza" type="button" role="tab" aria-controls="pills-pizza" aria-selected="false">Pizza</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-fries-tab" data-toggle="pill" data-target="#pills-fries" type="button" role="tab" aria-controls="pills-fries" aria-selected="false">Fries</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                    <div class="row">
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b1.png"></div>
+                                <div class="title">
+                                    <h3>Crispy Chicken</h3>
+                                    <p>Grilled Onion & Tomatoes Lettuce, Pickles, Garlic Sauce, Mayo, Chipotle Sauce</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b2.png"></div>
+                                <div class="title">
+                                    <h3>BBQ Chicken</h3>
+                                    <p>Grilled Chicken, Mozza Cheese, Grilled Onion, Lettuce, Mayo BBQ Sauce</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b3.png"></div>
+                                <div class="title">
+                                    <h3>Chicken Paradise</h3>
+                                    <p>Grilled Chicken, Mozza Cheese, Grilled Pineapple, lettuce, Onions Jalapenos</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b4.png"></div>
+                                <div class="title">
+                                    <h3>Beef Burger</h3>
+                                    <p>Beef Patty, Onions, Tomatoes, Pickles, Lettuce, ketchup, Mayo, Mustard</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b5.png"></div>
+                                <div class="title">
+                                    <h3>chesse burger</h3>
+                                    <p>Beef Patty, Chedder Cheese, Grilled Onions & Tomatoes, Pickles, Lettuce, Katchup</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b6.png"></div>
+                                <div class="title">
+                                    <h3>Beef Bacon</h3>
+                                    <p>Beef Patty, Chedder Cheese, Beef Bacon, Grilled Onions & Tomatoes Pickles, Lettuce</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/p1.png"></div>
+                                <div class="title">
+                                    <h3>Margherita</h3>
+                                    <P>Classic red sauce, fresh mozzarella, basil, olive oil and Pecorino Romano</P>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/p2.png"></div>
+                                <div class="title">
+                                    <h3>Spicy Pizza</h3>
+                                    <P>Spicy red sauce, cheese blend, local sausage and pepperoncinis</P>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/p3.png"></div>
+                                <div class="title">
+                                    <h3>Pierogi Pizza</h3>
+                                    <P>Whipped mashed potatoes with ricotta and cheddar cheese, caramelized onions</P>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/p4.png"></div>
+                                <div class="title">
+                                    <h3>Parmigiana</h3>
+                                    <p>Tomato sauce, Mozzarella, eggplants and parmesan flakes</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/p5.png"></div>
+                                <div class="title">
+                                    <h3>The King Pizza</h3>
+                                    <P>Local sausage, pepperoni, green peppers, mushrooms and onions.</P>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/f1.png"></div>
+                                <div class="title">
+                                    <h3>Fresh Cut Fries</h3>
+                                    <p>Salt, Black pepper, Garlic powder, Paprika, Cumin, Italian spices</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/f2.png"></div>
+                                <div class="title">
+                                    <h3>Cheese Fries</h3>
+                                    <p>Grated cheese, butter, cumin, black pepper and Italian spices</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-burger" role="tabpanel" aria-labelledby="pills-burger-tab">
+                    <div class="row">
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b1.png"></div>
+                                <div class="title">
+                                    <h3>Crispy Chicken</h3>
+                                    <p>Grilled Onion & Tomatoes Lettuce, Pickles, Garlic Sauce, Mayo, Chipotle Sauce</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b2.png"></div>
+                                <div class="title">
+                                    <h3>BBQ Chicken</h3>
+                                    <p>Grilled Chicken, Mozza Cheese, Grilled Onion, Lettuce, Mayo BBQ Sauce</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b3.png"></div>
+                                <div class="title">
+                                    <h3>Chicken Paradise</h3>
+                                    <p>Grilled Chicken, Mozza Cheese, Grilled Pineapple, lettuce, Onions Jalapenos, Mayo, Garlic Sauce</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b4.png"></div>
+                                <div class="title">
+                                    <h3>Beef Burger</h3>
+                                    <p>Beef Patty, Onions, Tomatoes, Pickles, Lettuce, ketchup, Mayo, Mustard</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b5.png"></div>
+                                <div class="title">
+                                    <h3>chesse burger</h3>
+                                    <p>Beef Patty, Chedder Cheese, Grilled Onions & Tomatoes, Pickles, Lettuce, Katchup, Mayo, Mustard</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/b6.png"></div>
+                                <div class="title">
+                                    <h3>Beef Bacon</h3>
+                                    <p>Beef Patty, Chedder Cheese, Beef Bacon, Grilled Onions & Tomatoes Pickles, Lettuce, Katchup, Mayo, Mustard</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-pizza" role="tabpanel" aria-labelledby="pills-pizza-tab">
+                    <div class="row">
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/p1.png"></div>
+                                <div class="title">
+                                    <h3>Margherita</h3>
+                                    <P>Classic red sauce, fresh mozzarella, basil, olive oil and Pecorino Romano</P>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/p2.png"></div>
+                                <div class="title">
+                                    <h3>Spicy Pizza</h3>
+                                    <P>Spicy red sauce, cheese blend, local sausage and pepperoncinis</P>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/p3.png"></div>
+                                <div class="title">
+                                    <h3>Pierogi Pizza</h3>
+                                    <P>Whipped mashed potatoes with ricotta and cheddar cheese, caramelized onions</P>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/p4.png"></div>
+                                <div class="title">
+                                    <h3>Parmigiana</h3>
+                                    <p>Tomato sauce, Mozzarella, eggplants and parmesan flakes</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/p5.png"></div>
+                                <div class="title">
+                                    <h3>The King Pizza</h3>
+                                    <P>Local sausage, pepperoni, green peppers, mushrooms and onions.</P>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-fries" role="tabpanel" aria-labelledby="pills-fries-tab">
+                    <div class="row">
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/f1.png"></div>
+                                <div class="title">
+                                    <h3>Fresh Cut Fries</h3>
+                                    <p>Salt, Black pepper, Garlic powder, Paprika, Cumin, Italian spices</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content col-lg-4 col-md-6">
+                            <div class="box">
+                                <div class="img"><img src="img/f2.png"></div>
+                                <div class="title">
+                                    <h3>Cheese Fries</h3>
+                                    <p>Grated cheese, butter, cumin, black pepper and Italian spices</p>
+                                    <h4>40$</h4>
+                                    <button>Order Now<i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn m-auto d-block">View More</button>
+    </section>
+    <!-- end menu-section -->
+    <!-- start footer-section -->
+    <footer class="footer-section text-light">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-md-0">
+                    <h2 class="text-capitalize">Fast Food</h2>
+                    <p> It combines diverse flavors with great presentation. Each dish is a work of art, reflecting the chefs' creativity and skill in combining ingredients in a delicious and innovative way.</p>
+                </div>
+                <div class="col-lg-3 col-md-6  mb-md-0">
+                    <h3 class="text-capitalize">Open Hours</h3>
+                    <div class="content">
+                        <h4><i class="fa-regular fa-clock"></i> Mon-Tue: 9am - 22pm</h4>
+                        <h4><i class="fa-regular fa-clock"></i>  Fri-Sun: 11am - 22pm</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  mb-md-0">
+                    <h3 class="text-capitalize">Contact Us</h3>
+                    <div class="content">
+                        <a href="mailto:info@gmail.com" class="d-block">info@gmail.com</a>
+                        <a class="tel" href="tel:000000">+97118893744</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); font-size: 20px;">
+            &copy; 2024 Copyright: <a class="text-white" href="#">FastFood.com</a>
+        </div>
+    </footer>
+    <!-- end footer-section -->
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- fontawesome js -->
+    <script src="js/all.min.js"></script>
+    <!-- jquery js -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- mdbootstrap js -->
+    <script src="js/mdb.umd.min.js"></script>
+</body>
+</html>
